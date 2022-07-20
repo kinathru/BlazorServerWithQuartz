@@ -1,0 +1,1356 @@
+2022-07-20 11:08:02,443 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 11:08:03,297 [1] INFO Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2022-07-20 11:08:03,312 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 11:08:03,323 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 11:08:03,323 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 11:08:03,332 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 11:08:03,334 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 11:08:03,334 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2022-07-20 11:08:03,334 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 11:08:03,359 [1] INFO Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 11:08:03,372 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:08:05,010 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 11:08:05,012 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:08:05,018 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 11:08:05,019 [12] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 11:08:05,019 [12] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 11:08:10,005 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 11:08:10,006 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:08:10,006 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 11:08:10,007 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper
+2022-07-20 11:08:10,009 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:08:10,010 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 11:08:10,010 [7] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 11:08:15,037 [12] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 11:08:20,020 [7] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data
+2022-07-20 11:08:25,055 [12] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data Completed
+2022-07-20 11:08:25,060 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Completed
+2022-07-20 11:08:25,066 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:08:25,066 [12] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 11:08:30,037 [7] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data Completed
+2022-07-20 11:08:30,038 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Completed
+2022-07-20 11:08:30,039 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:08:30,039 [7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 11:08:56,637 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:14:45,510 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 11:14:46,352 [1] INFO Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2022-07-20 11:14:46,371 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 11:14:46,383 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 11:14:46,383 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 11:14:46,390 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 11:14:46,393 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 11:14:46,393 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2022-07-20 11:14:46,393 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 11:14:46,421 [1] INFO Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 11:14:46,441 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:15:00,011 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 11:15:00,014 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:15:00,023 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 11:15:00,025 [12] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 11:15:00,025 [12] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 11:15:05,003 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 11:15:05,004 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 11:15:05,004 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:15:05,004 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dp
+2022-07-20 11:15:05,006 [5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 11:15:05,006 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 11:15:05,006 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 11:15:10,002 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 11:15:10,004 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:10,004 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 11:15:10,005 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:di is completed
+2022-07-20 11:15:10,006 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:dp is completed
+2022-07-20 11:15:10,006 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:10,006 [11] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 11:15:10,008 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:10,009 [11] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 11:15:10,036 [12] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 11:15:15,020 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 11:15:20,019 [11] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data
+2022-07-20 11:15:20,052 [12] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data Completed
+2022-07-20 11:15:20,054 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job Execution Completed
+2022-07-20 11:15:20,058 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:20,058 [12] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 11:15:25,035 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data Completed
+2022-07-20 11:15:25,036 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Completed
+2022-07-20 11:15:25,038 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:25,038 [5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 11:15:30,035 [11] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data Completed
+2022-07-20 11:15:30,036 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Completed
+2022-07-20 11:15:30,037 [11] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 11:15:30,037 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:15:56,719 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:16:24,801 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:16:54,150 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:17:22,169 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:17:51,985 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:18:18,168 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:18:41,670 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:19:04,935 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:19:31,135 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:19:56,328 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:20:22,216 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:20:48,985 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:21:12,002 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:21:37,801 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:22:06,936 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:22:35,286 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:23:02,284 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:23:31,951 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:23:59,335 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:24:26,355 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:24:55,819 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:25:19,468 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:25:45,369 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:26:10,169 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:26:36,496 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:27:01,885 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:27:26,405 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 11:58:03,388 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:01:23,626 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:01:35,351 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:03:42,246 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:04:54,459 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:04:55,646 [1] INFO Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2022-07-20 12:04:55,677 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 12:04:55,694 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 12:04:55,695 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 12:04:55,703 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 12:04:55,706 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 12:04:55,706 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2022-07-20 12:04:55,706 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 12:04:55,761 [1] INFO Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 12:04:55,788 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 12:44:53,849 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 12:47:14,824 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:05:15,314 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:07:13,669 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:08:33,939 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:08:37,841 [1] INFO Quartz.Util.DBConnectionManager - Registering datasource 'default' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2022-07-20 13:09:57,274 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:09:58,553 [1] INFO Quartz.Util.DBConnectionManager - Registering datasource 'default' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2022-07-20 13:09:58,566 [1] INFO Quartz.Impl.StdSchedulerFactory - Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2022-07-20 13:09:58,571 [1] INFO Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2022-07-20 13:09:58,574 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:09:58,596 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:09:58,596 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:09:58,602 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2022-07-20 13:09:58,604 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2022-07-20 13:09:58,606 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2022-07-20 13:09:58,607 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2022-07-20 13:09:58,608 [1] WARN Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SQL Server provider without SqlServerDelegate, SqlServerDelegate would provide better performance
+2022-07-20 13:09:58,608 [1] INFO Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2022-07-20 13:09:58,612 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'TestScheduler' with instanceId 'instance_one'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2022-07-20 13:09:58,613 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TestScheduler' initialized
+2022-07-20 13:09:58,613 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:09:59,192 [1] INFO Quartz.Impl.AdoJobStore.JobStoreTX - ConnectionAndTransactionHolder passed to RollbackConnection was null, ignoring
+2022-07-20 13:11:22,683 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:11:23,903 [1] INFO Quartz.Util.DBConnectionManager - Registering datasource 'default' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2022-07-20 13:11:23,913 [1] INFO Quartz.Impl.StdSchedulerFactory - Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2022-07-20 13:11:23,917 [1] INFO Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2022-07-20 13:11:23,920 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:11:23,934 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:11:23,935 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:11:23,939 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2022-07-20 13:11:23,939 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2022-07-20 13:11:23,940 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2022-07-20 13:11:23,940 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2022-07-20 13:11:23,941 [1] WARN Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SQL Server provider without SqlServerDelegate, SqlServerDelegate would provide better performance
+2022-07-20 13:11:23,941 [1] INFO Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2022-07-20 13:11:23,943 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'TestScheduler' with instanceId 'instance_one'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2022-07-20 13:11:23,944 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TestScheduler' initialized
+2022-07-20 13:11:23,944 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:11:24,184 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 57f47385-e5e3-4d1c-bb27-da77fcd5a476
+2022-07-20 13:11:24,191 [1] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:11:24,195 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 57f47385-e5e3-4d1c-bb27-da77fcd5a476
+2022-07-20 13:11:24,261 [12] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Inserting new lock row for lock: 'TRIGGER_ACCESS' being obtained: 57f47385-e5e3-4d1c-bb27-da77fcd5a476
+2022-07-20 13:11:24,262 [12] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_LOCKS(SCHED_NAME, LOCK_NAME) VALUES (@schedulerName, @lockName)
+2022-07-20 13:11:24,282 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 57f47385-e5e3-4d1c-bb27-da77fcd5a476
+2022-07-20 13:11:24,291 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:11:24,322 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:11:24,335 [12] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,345 [14] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,351 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,356 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:11:24,366 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:11:24,379 [12] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 57f47385-e5e3-4d1c-bb27-da77fcd5a476
+2022-07-20 13:11:24,392 [12] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 44ee13fd-b47a-47d6-833a-4fe58b7ecb6d
+2022-07-20 13:11:24,392 [12] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:11:24,392 [12] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 44ee13fd-b47a-47d6-833a-4fe58b7ecb6d
+2022-07-20 13:11:24,393 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 44ee13fd-b47a-47d6-833a-4fe58b7ecb6d
+2022-07-20 13:11:24,395 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:11:24,398 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:11:24,401 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,402 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,403 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,403 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:11:24,404 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:11:24,406 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 44ee13fd-b47a-47d6-833a-4fe58b7ecb6d
+2022-07-20 13:11:24,408 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: c2360d3c-2688-4c62-b216-f02f8eb76ba3
+2022-07-20 13:11:24,408 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:11:24,408 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: c2360d3c-2688-4c62-b216-f02f8eb76ba3
+2022-07-20 13:11:24,409 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: c2360d3c-2688-4c62-b216-f02f8eb76ba3
+2022-07-20 13:11:24,409 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:11:24,411 [13] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:11:24,412 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,436 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,439 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:11:24,446 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:11:24,450 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:11:24,452 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: c2360d3c-2688-4c62-b216-f02f8eb76ba3
+2022-07-20 13:11:24,459 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 6aa0eba9-28db-48e4-9d0a-4df2ef5c77e4
+2022-07-20 13:11:24,459 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:11:24,459 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 6aa0eba9-28db-48e4-9d0a-4df2ef5c77e4
+2022-07-20 13:11:24,460 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 6aa0eba9-28db-48e4-9d0a-4df2ef5c77e4
+2022-07-20 13:11:24,465 [14] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2022-07-20 13:11:24,478 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2022-07-20 13:11:24,483 [7] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Freed 0 triggers from 'acquired' / 'blocked' state.
+2022-07-20 13:11:24,488 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:11:24,497 [13] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2022-07-20 13:11:24,500 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery
+2022-07-20 13:11:24,507 [13] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2022-07-20 13:11:24,507 [13] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Recovery complete.
+2022-07-20 13:11:24,508 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state
+2022-07-20 13:11:24,511 [16] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Removed 0 'complete' triggers.
+2022-07-20 13:11:24,513 [16] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName
+2022-07-20 13:11:24,515 [7] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Removed 0 stale fired job entries.
+2022-07-20 13:11:24,516 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 6aa0eba9-28db-48e4-9d0a-4df2ef5c77e4
+2022-07-20 13:11:24,524 [7] INFO Quartz.Core.QuartzScheduler - Scheduler TestScheduler_$_instance_one started.
+2022-07-20 13:11:24,528 [QuartzScheduler_TestScheduler-instance_one_MisfireHandler (0)] DEBUG Quartz.Impl.AdoJobStore.MisfireHandler - Scanning for misfires...
+2022-07-20 13:11:24,529 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:11:24,546 [QuartzScheduler_TestScheduler-instance_one_MisfireHandler (0)] DEBUG Quartz.SQL - Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1
+2022-07-20 13:11:24,560 [13] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:11:24,567 [12] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2022-07-20 13:11:49,666 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:11:51,382 [1] INFO Quartz.Util.DBConnectionManager - Registering datasource 'default' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2022-07-20 13:11:51,395 [1] INFO Quartz.Impl.StdSchedulerFactory - Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2022-07-20 13:11:51,399 [1] INFO Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2022-07-20 13:11:51,400 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:11:51,420 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:11:51,421 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:11:51,427 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2022-07-20 13:11:51,428 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2022-07-20 13:11:51,428 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2022-07-20 13:11:51,428 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2022-07-20 13:11:51,429 [1] WARN Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SQL Server provider without SqlServerDelegate, SqlServerDelegate would provide better performance
+2022-07-20 13:11:51,429 [1] INFO Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2022-07-20 13:11:51,431 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'TestScheduler' with instanceId 'instance_one'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2022-07-20 13:11:51,432 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TestScheduler' initialized
+2022-07-20 13:11:51,432 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:11:51,732 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 9d62f932-e3d4-4c65-815c-4c66b9a78df3
+2022-07-20 13:11:51,742 [1] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:11:51,745 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 9d62f932-e3d4-4c65-815c-4c66b9a78df3
+2022-07-20 13:11:51,818 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 9d62f932-e3d4-4c65-815c-4c66b9a78df3
+2022-07-20 13:11:51,828 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:11:51,875 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 9d62f932-e3d4-4c65-815c-4c66b9a78df3
+2022-07-20 13:15:26,545 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:15:27,882 [1] INFO Quartz.Util.DBConnectionManager - Registering datasource 'default' with db provider: 'Quartz.Impl.AdoJobStore.Common.DbProvider'
+2022-07-20 13:15:27,893 [1] INFO Quartz.Impl.StdSchedulerFactory - Using object serializer: Quartz.Simpl.BinaryObjectSerializer, Quartz
+2022-07-20 13:15:27,897 [1] INFO Quartz.Impl.StdSchedulerFactory - Using custom data access locking (synchronization): Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore
+2022-07-20 13:15:27,900 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:15:27,918 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:15:27,918 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:15:27,923 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.SimpleTriggerPersistenceDelegate
+2022-07-20 13:15:27,924 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CronTriggerPersistenceDelegate
+2022-07-20 13:15:27,924 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.CalendarIntervalTriggerPersistenceDelegate
+2022-07-20 13:15:27,925 [1] DEBUG Quartz.Impl.AdoJobStore.StdAdoDelegate - Adding TriggerPersistenceDelegate of type: Quartz.Impl.AdoJobStore.DailyTimeIntervalTriggerPersistenceDelegate
+2022-07-20 13:15:27,925 [1] WARN Quartz.Impl.AdoJobStore.JobStoreTX - Detected usage of SQL Server provider without SqlServerDelegate, SqlServerDelegate would provide better performance
+2022-07-20 13:15:27,925 [1] INFO Quartz.Impl.AdoJobStore.JobStoreTX - JobStoreTX initialized.
+2022-07-20 13:15:27,927 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'TestScheduler' with instanceId 'instance_one'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Impl.AdoJobStore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2022-07-20 13:15:27,928 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'TestScheduler' initialized
+2022-07-20 13:15:27,928 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:15:28,174 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 57b4df8c-9ecc-4363-b983-a65232284587
+2022-07-20 13:15:28,182 [1] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:15:28,186 [1] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 57b4df8c-9ecc-4363-b983-a65232284587
+2022-07-20 13:15:28,274 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Inserting new lock row for lock: 'TRIGGER_ACCESS' being obtained: 57b4df8c-9ecc-4363-b983-a65232284587
+2022-07-20 13:15:28,275 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_LOCKS(SCHED_NAME, LOCK_NAME) VALUES (@schedulerName, @lockName)
+2022-07-20 13:15:28,289 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 57b4df8c-9ecc-4363-b983-a65232284587
+2022-07-20 13:15:28,296 [10] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:15:28,331 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:15:28,343 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,355 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,360 [14] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,370 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:15:28,378 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:15:28,389 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 57b4df8c-9ecc-4363-b983-a65232284587
+2022-07-20 13:15:28,407 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: d5d39e48-10ae-473f-85c9-3bd3561c7f39
+2022-07-20 13:15:28,407 [10] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:15:28,408 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: d5d39e48-10ae-473f-85c9-3bd3561c7f39
+2022-07-20 13:15:28,410 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: d5d39e48-10ae-473f-85c9-3bd3561c7f39
+2022-07-20 13:15:28,410 [10] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:15:28,411 [13] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:15:28,413 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,413 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,413 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,414 [13] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:15:28,415 [13] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:15:28,416 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: d5d39e48-10ae-473f-85c9-3bd3561c7f39
+2022-07-20 13:15:28,417 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: deb71dab-e355-4a87-a25e-760f6f20c489
+2022-07-20 13:15:28,418 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:15:28,418 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: deb71dab-e355-4a87-a25e-760f6f20c489
+2022-07-20 13:15:28,418 [14] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: deb71dab-e355-4a87-a25e-760f6f20c489
+2022-07-20 13:15:28,419 [14] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:15:28,420 [15] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_JOB_DETAILS (SCHED_NAME, JOB_NAME, JOB_GROUP, DESCRIPTION, JOB_CLASS_NAME, IS_DURABLE, IS_NONCONCURRENT, IS_UPDATE_DATA, REQUESTS_RECOVERY, JOB_DATA)  VALUES(@schedulerName, @jobName, @jobGroup, @jobDescription, @jobType, @jobDurable, @jobVolatile, @jobStateful, @jobRequestsRecovery, @jobDataMap)
+2022-07-20 13:15:28,422 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,423 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,423 [10] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_GROUP FROM QRTZ_PAUSED_TRIGGER_GRPS WHERE SCHED_NAME = @schedulerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:28,424 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, JOB_NAME, JOB_GROUP, DESCRIPTION, NEXT_FIRE_TIME, PREV_FIRE_TIME, TRIGGER_STATE, TRIGGER_TYPE, START_TIME, END_TIME, CALENDAR_NAME, MISFIRE_INSTR, JOB_DATA, PRIORITY)  
+                        VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerJobName, @triggerJobGroup, @triggerDescription, @triggerNextFireTime, @triggerPreviousFireTime, @triggerState, @triggerType, @triggerStartTime, @triggerEndTime, @triggerCalendarName, @triggerMisfireInstruction, @triggerJobJobDataMap, @triggerPriority)
+2022-07-20 13:15:28,426 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_CRON_TRIGGERS (SCHED_NAME, TRIGGER_NAME, TRIGGER_GROUP, CRON_EXPRESSION, TIME_ZONE_ID) VALUES(@schedulerName, @triggerName, @triggerGroup, @triggerCronExpression, @triggerTimeZone)
+2022-07-20 13:15:28,428 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: deb71dab-e355-4a87-a25e-760f6f20c489
+2022-07-20 13:15:28,434 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 600e5beb-9361-4f67-8002-d093c125b5dd
+2022-07-20 13:15:28,436 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:15:28,436 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 600e5beb-9361-4f67-8002-d093c125b5dd
+2022-07-20 13:15:28,438 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 600e5beb-9361-4f67-8002-d093c125b5dd
+2022-07-20 13:15:28,443 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2022-07-20 13:15:28,448 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND (TRIGGER_STATE = @oldState1 OR TRIGGER_STATE = @oldState2)
+2022-07-20 13:15:28,451 [16] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Freed 0 triggers from 'acquired' / 'blocked' state.
+2022-07-20 13:15:28,455 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1 ORDER BY NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:15:28,459 [10] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2022-07-20 13:15:28,462 [10] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND INSTANCE_NAME = @instanceName AND REQUESTS_RECOVERY = @requestsRecovery
+2022-07-20 13:15:28,464 [10] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2022-07-20 13:15:28,465 [10] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Recovery complete.
+2022-07-20 13:15:28,466 [10] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state
+2022-07-20 13:15:28,469 [13] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Removed 0 'complete' triggers.
+2022-07-20 13:15:28,470 [13] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName
+2022-07-20 13:15:28,472 [10] INFO Quartz.Impl.AdoJobStore.JobStoreTX - Removed 0 stale fired job entries.
+2022-07-20 13:15:28,473 [10] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 600e5beb-9361-4f67-8002-d093c125b5dd
+2022-07-20 13:15:28,479 [10] INFO Quartz.Core.QuartzScheduler - Scheduler TestScheduler_$_instance_one started.
+2022-07-20 13:15:28,482 [QuartzScheduler_TestScheduler-instance_one_MisfireHandler (0)] DEBUG Quartz.Impl.AdoJobStore.MisfireHandler - Scanning for misfires...
+2022-07-20 13:15:28,484 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:15:28,516 [QuartzScheduler_TestScheduler-instance_one_MisfireHandler (0)] DEBUG Quartz.SQL - Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1
+2022-07-20 13:15:28,518 [13] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:15:28,558 [5] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2022-07-20 13:15:54,146 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:15:54,159 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:15:54,169 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState AND NEXT_FIRE_TIME = @nextFireTime
+2022-07-20 13:15:54,174 [7] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES(@schedulerName, @triggerEntryId, @triggerName, @triggerGroup, @triggerInstanceName, @triggerFireTime, @triggerScheduledTime, @triggerState, @triggerJobName, @triggerJobGroup, @triggerJobStateful, @triggerJobRequestsRecovery, @triggerPriority)
+2022-07-20 13:15:54,180 [15] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:16:00,002 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:00,002 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:00,003 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:00,006 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:00,012 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:00,020 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME,JOB_GROUP,DESCRIPTION,JOB_CLASS_NAME,IS_DURABLE,REQUESTS_RECOVERY,JOB_DATA FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:00,024 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_FIRED_TRIGGERS SET INSTANCE_NAME = @instanceName, FIRED_TIME = @firedTime, SCHED_TIME = @scheduledTime, STATE = @entryState, JOB_NAME = @jobName, JOB_GROUP = @jobGroup, IS_NONCONCURRENT = @isNonConcurrent, REQUESTS_RECOVERY = @requestsRecover WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @entryId
+2022-07-20 13:16:00,031 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:00,034 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET JOB_NAME = @triggerJobName, JOB_GROUP = @triggerJobGroup, DESCRIPTION = @triggerDescription, NEXT_FIRE_TIME = @triggerNextFireTime, PREV_FIRE_TIME = @triggerPreviousFireTime, 
+                        TRIGGER_STATE = @triggerState, TRIGGER_TYPE = @triggerType, START_TIME = @triggerStartTime, END_TIME = @triggerEndTime, CALENDAR_NAME = @triggerCalendarName, MISFIRE_INSTR = @triggerMisfireInstruction, PRIORITY = @triggerPriority
+                    WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:00,042 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_CRON_TRIGGERS SET CRON_EXPRESSION = @triggerCronExpression, TIME_ZONE_ID = @timeZoneId WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:00,045 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:00,047 [13] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 13:16:00,049 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:00,053 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:00,058 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState AND NEXT_FIRE_TIME = @nextFireTime
+2022-07-20 13:16:00,060 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 13:16:00,060 [5] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES(@schedulerName, @triggerEntryId, @triggerName, @triggerGroup, @triggerInstanceName, @triggerFireTime, @triggerScheduledTime, @triggerState, @triggerJobName, @triggerJobGroup, @triggerJobStateful, @triggerJobRequestsRecovery, @triggerPriority)
+2022-07-20 13:16:00,061 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 13:16:00,062 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:16:00,062 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 13:16:05,000 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,001 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:05,001 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,002 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,003 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,004 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME,JOB_GROUP,DESCRIPTION,JOB_CLASS_NAME,IS_DURABLE,REQUESTS_RECOVERY,JOB_DATA FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:05,006 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_FIRED_TRIGGERS SET INSTANCE_NAME = @instanceName, FIRED_TIME = @firedTime, SCHED_TIME = @scheduledTime, STATE = @entryState, JOB_NAME = @jobName, JOB_GROUP = @jobGroup, IS_NONCONCURRENT = @isNonConcurrent, REQUESTS_RECOVERY = @requestsRecover WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @entryId
+2022-07-20 13:16:05,008 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,009 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET JOB_NAME = @triggerJobName, JOB_GROUP = @triggerJobGroup, DESCRIPTION = @triggerDescription, NEXT_FIRE_TIME = @triggerNextFireTime, PREV_FIRE_TIME = @triggerPreviousFireTime, 
+                        TRIGGER_STATE = @triggerState, TRIGGER_TYPE = @triggerType, START_TIME = @triggerStartTime, END_TIME = @triggerEndTime, CALENDAR_NAME = @triggerCalendarName, MISFIRE_INSTR = @triggerMisfireInstruction, PRIORITY = @triggerPriority
+                    WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,013 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_CRON_TRIGGERS SET CRON_EXPRESSION = @triggerCronExpression, TIME_ZONE_ID = @timeZoneId WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,016 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,016 [13] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 13:16:05,016 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 13:16:05,016 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dp till data:di is completed
+2022-07-20 13:16:05,016 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:05,018 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:05,019 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:05,019 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:05,019 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:05,021 [20] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,023 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:05,028 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,028 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState AND NEXT_FIRE_TIME = @nextFireTime
+2022-07-20 13:16:05,031 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES(@schedulerName, @triggerEntryId, @triggerName, @triggerGroup, @triggerInstanceName, @triggerFireTime, @triggerScheduledTime, @triggerState, @triggerJobName, @triggerJobGroup, @triggerJobStateful, @triggerJobRequestsRecovery, @triggerPriority)
+2022-07-20 13:16:05,032 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,032 [15] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:16:05,035 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @state WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,040 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:05,042 [5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 13:16:05,042 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 13:16:05,042 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,042 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:05,043 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,043 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,045 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:05,049 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:05,052 [11] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @triggerEntryId
+2022-07-20 13:16:05,056 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:05,058 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:05,059 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:05,060 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState AND NEXT_FIRE_TIME = @nextFireTime
+2022-07-20 13:16:05,060 [11] DEBUG Quartz.SQL - Prepared SQL: INSERT INTO QRTZ_FIRED_TRIGGERS (SCHED_NAME, ENTRY_ID, TRIGGER_NAME, TRIGGER_GROUP, INSTANCE_NAME, FIRED_TIME, SCHED_TIME, STATE, JOB_NAME, JOB_GROUP, IS_NONCONCURRENT, REQUESTS_RECOVERY, PRIORITY) VALUES(@schedulerName, @triggerEntryId, @triggerName, @triggerGroup, @triggerInstanceName, @triggerFireTime, @triggerScheduledTime, @triggerState, @triggerJobName, @triggerJobGroup, @triggerJobStateful, @triggerJobRequestsRecovery, @triggerPriority)
+2022-07-20 13:16:05,061 [11] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:16:10,001 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:10,002 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:10,002 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:10,004 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:10,005 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,006 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME,JOB_GROUP,DESCRIPTION,JOB_CLASS_NAME,IS_DURABLE,REQUESTS_RECOVERY,JOB_DATA FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:10,007 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_FIRED_TRIGGERS SET INSTANCE_NAME = @instanceName, FIRED_TIME = @firedTime, SCHED_TIME = @scheduledTime, STATE = @entryState, JOB_NAME = @jobName, JOB_GROUP = @jobGroup, IS_NONCONCURRENT = @isNonConcurrent, REQUESTS_RECOVERY = @requestsRecover WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @entryId
+2022-07-20 13:16:10,009 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 1 FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,010 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET JOB_NAME = @triggerJobName, JOB_GROUP = @triggerJobGroup, DESCRIPTION = @triggerDescription, NEXT_FIRE_TIME = @triggerNextFireTime, PREV_FIRE_TIME = @triggerPreviousFireTime, 
+                        TRIGGER_STATE = @triggerState, TRIGGER_TYPE = @triggerType, START_TIME = @triggerStartTime, END_TIME = @triggerEndTime, CALENDAR_NAME = @triggerCalendarName, MISFIRE_INSTR = @triggerMisfireInstruction, PRIORITY = @triggerPriority
+                    WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,016 [13] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_CRON_TRIGGERS SET CRON_EXPRESSION = @triggerCronExpression, TIME_ZONE_ID = @timeZoneId WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,018 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 578c87a2-74a9-48f4-9931-5c1c4314ca01
+2022-07-20 13:16:10,018 [13] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 13:16:10,018 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 13:16:10,019 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:dp is completed
+2022-07-20 13:16:10,019 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:10,019 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,020 [11] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:10,020 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,020 [13] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,020 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:10,022 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,023 [13] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:10,024 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,025 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @state WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,027 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,027 [15] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:di is completed
+2022-07-20 13:16:10,027 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:10,027 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,028 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:10,028 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,028 [13] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:10,029 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,029 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:10,029 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,030 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:10,031 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:10,031 [16] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 13:16:10,031 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:10,031 [16] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 13:16:10,032 [20] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:10,067 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 13:16:15,049 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 13:16:20,050 [16] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data
+2022-07-20 13:16:20,084 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data Completed
+2022-07-20 13:16:20,086 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job Execution Completed
+2022-07-20 13:16:20,090 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,090 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:20,090 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,091 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,092 [7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 13:16:20,093 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,093 [7] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' Is already owned by: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,094 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME, JOB_GROUP FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,095 [7] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @triggerEntryId
+2022-07-20 13:16:20,097 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,098 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,105 [13] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,112 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,122 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:20,125 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,125 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,126 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,126 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,127 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:20,128 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,129 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,133 [22] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:20,135 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:20,137 [22] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:20,140 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 977eaff9-c705-483a-971f-b48464d811d7
+2022-07-20 13:16:20,141 [20] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:20,145 [11] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:25,065 [5] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data Completed
+2022-07-20 13:16:25,066 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Completed
+2022-07-20 13:16:25,068 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,069 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:25,069 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,069 [5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 13:16:25,070 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,070 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:25,070 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,072 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,072 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME, JOB_GROUP FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,074 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,076 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,082 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,084 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,087 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:25,090 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,090 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,092 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,092 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,093 [15] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:25,093 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,094 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,097 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:25,100 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:25,103 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:25,108 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,108 [22] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,109 [22] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @triggerEntryId
+2022-07-20 13:16:25,109 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:25,110 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: 95f6a888-ef56-4d0c-9aa2-f5a6503d6086
+2022-07-20 13:16:25,115 [11] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:28,484 [5] DEBUG Quartz.Impl.AdoJobStore.MisfireHandler - Scanning for misfires...
+2022-07-20 13:16:28,484 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT COUNT(TRIGGER_NAME) FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME < @nextFireTime AND TRIGGER_STATE = @state1
+2022-07-20 13:16:28,487 [5] DEBUG Quartz.Impl.AdoJobStore.JobStoreTX - Found 0 triggers that missed their scheduled fire-time.
+2022-07-20 13:16:30,066 [16] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data Completed
+2022-07-20 13:16:30,067 [16] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Completed
+2022-07-20 13:16:30,068 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,068 [16] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:30,068 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,069 [16] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 13:16:30,070 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is desired by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,070 [16] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_LOCKS SET LOCK_NAME = LOCK_NAME WHERE SCHED_NAME = @schedulerName AND LOCK_NAME = @lockName
+2022-07-20 13:16:30,070 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' is being obtained: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,072 [16] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,073 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT JOB_NAME, JOB_GROUP FROM QRTZ_JOB_DETAILS WHERE SCHED_NAME = @schedulerName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,075 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,076 [16] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,081 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,082 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,083 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:30,087 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,087 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,088 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,089 [15] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,089 [7] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:30,089 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_NAME, TRIGGER_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,090 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT 
+                JOB_NAME,
+                JOB_GROUP,
+                DESCRIPTION,
+                NEXT_FIRE_TIME,
+                PREV_FIRE_TIME,
+                TRIGGER_TYPE,
+                START_TIME,
+                END_TIME,
+                CALENDAR_NAME,
+                MISFIRE_INSTR,
+                PRIORITY,
+                JOB_DATA,
+                CRON_EXPRESSION,
+                TIME_ZONE_ID,
+                REPEAT_COUNT,
+                REPEAT_INTERVAL,
+                TIMES_TRIGGERED 
+            FROM 
+                QRTZ_TRIGGERS t
+            LEFT JOIN
+                QRTZ_SIMPLE_TRIGGERS st ON (st.SCHED_NAME = t.SCHED_NAME AND st.TRIGGER_GROUP = t.TRIGGER_GROUP AND st.TRIGGER_NAME = t.TRIGGER_NAME)
+            LEFT JOIN
+                QRTZ_CRON_TRIGGERS ct ON (ct.SCHED_NAME = t.SCHED_NAME AND ct.TRIGGER_GROUP = t.TRIGGER_GROUP AND ct.TRIGGER_NAME = t.TRIGGER_NAME)
+            WHERE
+                t.SCHED_NAME = @schedulerName AND t.TRIGGER_NAME = @triggerName AND t.TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,093 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT TRIGGER_STATE, NEXT_FIRE_TIME, JOB_NAME, JOB_GROUP FROM QRTZ_TRIGGERS WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup
+2022-07-20 13:16:30,094 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT * FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND JOB_NAME = @jobName AND JOB_GROUP = @jobGroup
+2022-07-20 13:16:30,095 [5] DEBUG Quartz.SQL - Prepared SQL: UPDATE QRTZ_TRIGGERS SET TRIGGER_STATE = @newState WHERE SCHED_NAME = @schedulerName AND TRIGGER_NAME = @triggerName AND TRIGGER_GROUP = @triggerGroup AND TRIGGER_STATE = @oldState
+2022-07-20 13:16:30,097 [5] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,097 [15] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' given to: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,097 [15] DEBUG Quartz.SQL - Prepared SQL: DELETE FROM QRTZ_FIRED_TRIGGERS WHERE SCHED_NAME = @schedulerName AND ENTRY_ID = @triggerEntryId
+2022-07-20 13:16:30,097 [11] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:30,098 [11] DEBUG Quartz.Impl.AdoJobStore.UpdateLockRowSemaphore - Lock 'TRIGGER_ACCESS' returned by: a4a85c27-ccf4-4a31-9df9-af3a14448b00
+2022-07-20 13:16:30,102 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:16:55,700 [5] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:16:55,705 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:17:20,288 [7] DEBUG Quartz.SQL - Prepared SQL: SELECT
+                t.TRIGGER_NAME, t.TRIGGER_GROUP, jd.JOB_CLASS_NAME
+              FROM
+                QRTZ_TRIGGERS t
+              JOIN
+                QRTZ_JOB_DETAILS jd ON (jd.SCHED_NAME = t.SCHED_NAME AND  jd.JOB_GROUP = t.JOB_GROUP AND jd.JOB_NAME = t.JOB_NAME) 
+              WHERE
+                t.SCHED_NAME = @schedulerName AND TRIGGER_STATE = @state AND NEXT_FIRE_TIME <= @noLaterThan AND (MISFIRE_INSTR = -1 OR (MISFIRE_INSTR <> -1 AND NEXT_FIRE_TIME >= @noEarlierThan))
+              ORDER BY 
+                NEXT_FIRE_TIME ASC, PRIORITY DESC
+2022-07-20 13:17:20,294 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:18:31,242 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:18:32,150 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:18:32,170 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:18:32,170 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:18:32,177 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 13:18:32,178 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 13:18:32,179 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 13:18:32,179 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:18:32,206 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 13:18:32,227 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:19:00,005 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 13:19:00,008 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:19:00,015 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 13:19:00,017 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 13:19:00,017 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 13:19:05,015 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 13:19:05,016 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:19:05,016 [10] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 13:19:05,016 [10] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dp till data:di is completed
+2022-07-20 13:19:05,018 [10] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 13:19:05,018 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:19:05,018 [10] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 13:19:10,001 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 13:19:10,002 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 13:19:10,002 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:19:10,002 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:dp is completed
+2022-07-20 13:19:10,003 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Job data:dper till data:di is completed
+2022-07-20 13:19:10,003 [11] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 13:19:10,003 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:19:10,003 [11] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 13:19:10,033 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 13:19:15,032 [10] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 13:39:56,246 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:39:57,369 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:39:57,386 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:39:57,387 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:39:57,393 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 13:39:57,395 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 13:39:57,396 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 13:39:57,396 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:39:57,427 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 13:39:57,446 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:40:00,017 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 13:40:00,020 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:40:38,528 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 13:40:39,835 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 13:40:39,857 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 13:40:39,857 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 13:40:39,867 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 13:40:39,870 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 13:40:39,871 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 13:40:39,871 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 13:40:39,920 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 13:40:39,985 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:41:00,017 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 13:41:00,020 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:41:00,027 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobTriggerListener - data:di Job is to be executed
+2022-07-20 13:41:00,030 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 13:41:00,033 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 13:41:00,033 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 13:41:05,001 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 13:41:05,003 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobTriggerListener - data:dp Job is to be executed
+2022-07-20 13:41:05,003 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:41:05,004 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobTriggerListener - Pausing Job data:dp till data:di is completed
+2022-07-20 13:41:05,006 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 13:41:05,006 [12] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Vetoed
+2022-07-20 13:41:10,014 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 13:41:10,015 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:41:10,015 [10] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobTriggerListener - data:dper Job is to be executed
+2022-07-20 13:41:10,016 [10] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobTriggerListener - Pausing Job data:dper till data:di is completed
+2022-07-20 13:41:10,016 [10] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Vetoed
+2022-07-20 13:41:10,017 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:41:10,047 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 13:41:20,064 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data Completed
+2022-07-20 13:41:20,067 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job Execution Completed
+2022-07-20 13:41:20,072 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 13:41:20,072 [7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:08:28,077 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 14:08:29,692 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 14:08:29,724 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 14:08:29,724 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 14:08:29,740 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 14:08:29,744 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 14:08:29,745 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 14:08:29,745 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 14:08:29,805 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 14:08:29,827 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:08:58,884 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:09:00,019 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 14:09:00,022 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:09:00,029 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 14:09:00,029 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Data processing and Data Persist Jobs till Data Import is completed
+2022-07-20 14:09:00,031 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:09:00,032 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 14:09:00,033 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 14:09:10,047 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 14:09:20,064 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data Completed
+2022-07-20 14:09:20,066 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job Execution Completed
+2022-07-20 14:09:20,072 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:09:20,072 [7] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:09:20,072 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 14:09:20,073 [13] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 14:09:20,073 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:09:20,073 [13] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Data Persist Jobs till Data Processing is completed
+2022-07-20 14:09:20,073 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 14:09:20,073 [13] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 14:09:20,073 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:09:20,073 [17] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 14:09:20,073 [13] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 14:09:20,073 [17] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 14:09:20,074 [17] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 14:09:30,080 [13] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 14:09:30,080 [17] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data
+2022-07-20 14:09:40,097 [17] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data Completed
+2022-07-20 14:09:40,097 [13] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data Completed
+2022-07-20 14:09:40,097 [17] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Completed
+2022-07-20 14:09:40,098 [13] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Completed
+2022-07-20 14:09:40,099 [17] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:09:40,099 [13] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:09:40,099 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:09:40,100 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:10:04,997 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:12:53,505 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 14:12:54,897 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 14:12:54,923 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 14:12:54,924 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 14:12:54,935 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 14:12:54,938 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 14:12:54,939 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 14:12:54,939 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 14:12:54,988 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 14:12:55,019 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:13:00,012 [5] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 14:13:00,015 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:13:00,025 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 14:13:00,025 [7] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Data processing and Data Persist Jobs till Data Import is completed
+2022-07-20 14:13:00,027 [5] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:13:00,028 [7] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 14:13:00,028 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 14:13:10,033 [7] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 14:13:21,846 [1] INFO Program - Blazor Server App Starting...
+2022-07-20 14:13:23,086 [1] DEBUG Quartz.Simpl.TaskSchedulingThreadPool - TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2022-07-20 14:13:23,112 [1] INFO Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2022-07-20 14:13:23,112 [1] INFO Quartz.Core.QuartzScheduler - Quartz Scheduler created
+2022-07-20 14:13:23,121 [1] INFO Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2022-07-20 14:13:23,125 [1] INFO Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-20 14:13:23,126 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'QuartzScheduler' initialized
+2022-07-20 14:13:23,126 [1] INFO Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 3.4.0.0
+2022-07-20 14:13:23,183 [1] INFO Quartz.Core.QuartzScheduler - Scheduler QuartzScheduler_$_NON_CLUSTERED started.
+2022-07-20 14:13:23,208 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:13:47,354 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:14:00,005 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.di', class=BlazorServerWithQuartz.Jobs.DataImportJob
+2022-07-20 14:14:00,007 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:14:00,016 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job is to be executed
+2022-07-20 14:14:00,016 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Data processing and Data Persist Jobs till Data Import is completed
+2022-07-20 14:14:00,018 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:14:00,019 [5] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.di
+2022-07-20 14:14:00,020 [5] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Configuring Data Sources
+2022-07-20 14:14:10,031 [5] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data
+2022-07-20 14:14:20,034 [5] INFO BlazorServerWithQuartz.Jobs.DataImportJob - Importing Data Completed
+2022-07-20 14:14:20,037 [5] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:di Job Execution Completed
+2022-07-20 14:14:20,041 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:14:20,042 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dp', class=BlazorServerWithQuartz.Jobs.DataProcessingJob
+2022-07-20 14:14:20,042 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:14:20,042 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job is to be executed
+2022-07-20 14:14:20,042 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - Pausing Data Persist Jobs till Data Processing is completed
+2022-07-20 14:14:20,043 [5] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:14:20,043 [11] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dp
+2022-07-20 14:14:20,043 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:14:20,043 [11] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Data Processing Started
+2022-07-20 14:14:30,044 [11] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data
+2022-07-20 14:14:40,046 [11] INFO BlazorServerWithQuartz.Jobs.DataProcessingJob - Transforming Data Completed
+2022-07-20 14:14:40,046 [11] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dp Job Execution Completed
+2022-07-20 14:14:40,047 [11] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:14:40,047 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 1 triggers
+2022-07-20 14:14:40,049 [7] DEBUG Quartz.Simpl.SimpleJobFactory - Producing instance of Job 'data.dper', class=BlazorServerWithQuartz.Jobs.DataPersistenceJob
+2022-07-20 14:14:40,049 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:14:40,049 [15] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job is to be executed
+2022-07-20 14:14:40,050 [15] DEBUG Quartz.Core.JobRunShell - Calling Execute on job data.dper
+2022-07-20 14:14:40,050 [15] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Configuring Databases
+2022-07-20 14:14:50,060 [15] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data
+2022-07-20 14:15:00,072 [15] INFO BlazorServerWithQuartz.Jobs.DataPersistenceJob - Persisting Data Completed
+2022-07-20 14:15:00,073 [15] INFO BlazorServerWithQuartz.Listeners.DataProcessingJobListener - data:dper Job Execution Completed
+2022-07-20 14:15:00,073 [15] DEBUG Quartz.Core.JobRunShell - Trigger instruction : NoInstruction
+2022-07-20 14:15:06,313 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:15:30,812 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:15:55,126 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:16:21,095 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:16:48,727 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:17:18,610 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:17:45,877 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:18:11,411 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:18:39,643 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
+2022-07-20 14:19:06,627 [7] DEBUG Quartz.Core.QuartzSchedulerThread - Batch acquisition of 0 triggers
